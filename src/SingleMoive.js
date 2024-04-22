@@ -34,7 +34,7 @@ const SingleMoive = () => {
       getMovies(`${API_URL}&i=${id}`);
     }, 500)
     return () => clearTimeout(timerOut)
-    // getMovies(API_URL);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
   if (isLoading) {
     return (
