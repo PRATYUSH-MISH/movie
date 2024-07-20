@@ -15,7 +15,7 @@ const AppProvider = ({ children }) => {
     const [query,setQuery]=useState("titanic")
     const [isError, setError] = useState({
         show: false,
-        msg: ""
+        msg: "" ,
     });
 
     // Function to fetch movies
